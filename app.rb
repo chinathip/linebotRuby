@@ -11,7 +11,7 @@ def client
 end
 
 get '/' do
-  "Hello World99"
+  erb :index
 end
 
   #   post '/callback' do
